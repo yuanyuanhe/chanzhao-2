@@ -1,0 +1,37 @@
+@charset "UTF-8";
+//项目标准样式值css配置文件
+$imageRoot: 'https://cdn.mitures.com/';
+$iconPath: "web/assets_v2/img/";
+$bgColor: #ff438e;
+$textColor1: #333;
+$textColor2: #666;
+$textColor3: #999;
+$textColor4: #b05af3;
+$textColor5: #ff438e;
+
+$borderColor1: #ddd;
+$borderColor5: #333;
+$borderColor2: #f5f5f5;
+$borderColor3: #ff438e;
+$borderColor4: #efefef;
+
+$textBgColor1: #333;
+$textBgColor2: #dbdde1;
+$textBgColor3: #f1f2f4;
+$textBgColor4: #f5f5f5;
+$textBgColor5: #ddd;
+$textBgColor6: #c1a4f7;
+
+$btnColor1: #b95af3;
+$btnColor2: #ff438e;
+$btnColor3: #999;
+$btnColor: #50c9ff;
+
+$mHoriPadding: 40px;
+@function addHost( $src ) {
+  @return $imageRoot + $src;
+}
+
+@function addIconHost( $src ) {
+  @return $imageRoot + $iconPath + $src
+}

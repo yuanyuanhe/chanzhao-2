@@ -1,0 +1,36 @@
+@import "../../../../../../configs/config";
+@import "../../../../../../configs/icons";
+.label-item{
+  color: $textColor1;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  width: 180px;
+  position: relative;
+}
+
+.label-item.cur{
+  .label-item-icon{
+    background-color: $textColor5;
+  }
+}
+.label-item-name{
+  color: $textColor1;
+  max-width: 160px;
+  display: inline-block;
+  float: left;
+  cursor: pointer;
+}
+.label-item-icon{
+  width: 12px;
+  height: 12px;
+  line-height: 12px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  background-color: $textBgColor4;
+  border-radius: 50%;
+  float: right;
+  display: inline-block;
+
+}

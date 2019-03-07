@@ -1,0 +1,48 @@
+@import "../../../../../../configs/config";
+@import "../../../../../../configs/icons";
+.session-menu-container{
+  position: absolute;
+  height: 20px;
+  top: 50%;
+  margin-top: -10px;
+  right: 20px;
+  z-index: 2;
+}
+.menu-icon{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  background: url(addIconHost( $ICON_NAV_SETTING_COMMON )) no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.menu-icon:hover{
+  background-image: url(addIconHost( $ICON_NAV_SETTING_ACTIVE ));
+}
+.session-menu-container:hover .menu-list{
+  display: block;
+}
+.menu-list:hover{
+  display: block;
+}
+//$MENU_BG
+.menu-list{
+  display: none;
+  position: absolute;
+  top: 14px;
+  right: -38px;
+  width: 100px;
+  padding-bottom: 6px;
+}
+
+.ml-text-area{
+  width: 100px;
+  margin-top: 28px;
+  padding-left: 10px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding-top: 4px;
+  background-color: white;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}

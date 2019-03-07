@@ -1,0 +1,81 @@
+@import "../../../configs/config";
+@import "../../../configs/icons";
+.user-data-profile-container{
+  width: 380px;
+  height: 250px;
+  box-sizing: border-box;
+  background-color: white;
+  float: right;
+  margin-left: 20px;
+  border-radius: 4px;
+  .udp-user-part{
+    width: 100%;
+    padding: 24px 30px;
+    box-sizing: border-box;
+    border-bottom: 1px solid $borderColor1;
+    .udp-avatar{
+      width: 80px;
+      height: 80px;
+      float: left;
+      margin-right: 16px;
+    }
+
+  }
+}
+.udp-name{
+  width: 224px;
+  float: left;
+  font-size: 20px;
+  line-height: 28px;
+  height: 28px;
+  margin-bottom: 4px;
+  font-weight: 600;
+  margin-top: 14px;
+  color: $textColor1;
+}
+.udp-line{
+  height: 20px;
+  line-height: 20px;
+  width: 224px;
+  float: left;
+  text-align: left;
+
+}
+.udp-autograph{
+  width: 100%;
+  font-size: 16px;
+  height: 22px;
+  line-height: 22px;
+  margin-top: 10px;
+  float: left;
+  color: $textColor1;
+}
+.udp-data-part{
+  width: 100%;
+
+  .udp-dpi{
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    padding-top: 24px;
+    cursor: pointer;
+    .udp-dpi-num{
+      font-size: 24px;
+      font-weight: 600;
+      color: $textColor1;
+      height: 24px;
+      line-height: 24px;
+      width: 100%;
+      text-align: center;
+    }
+    .udp-dpi-text{
+      color: $textColor3;
+      font-size: 14px;
+      height: 14px;
+      line-height: 14px;
+      text-align: center;
+      width: 100%;
+      margin-top: 6px;
+    }
+  }
+}

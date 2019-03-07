@@ -1,0 +1,26 @@
+.uc-profile-item-container{
+  min-height: 22px;
+  width: 100%;
+  box-sizing: border-box;
+  //padding: 6px 30px;
+  font-size: 16px;
+  margin-bottom: 28px;
+  padding-left: 30px;
+}
+
+.uc-profile-item-type{
+  float: left;
+  margin-right: 26px;
+  line-height: 22px;
+  color: #999;
+  font-size: inherit;
+}
+
+.uc-profile-item-value{
+  float: left;
+  line-height: 22px;
+  color: #333;
+  font-size: inherit;
+  max-width: 230px;
+  font-size: 16px;
+}

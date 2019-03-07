@@ -1,0 +1,127 @@
+@import "../../../configs/config";
+.moment-publisher {
+  width: 800px;
+  height: 250px;
+  background-color: white;
+  float: left;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.moment-editor {
+  outline: 0 none;
+  border: 0 none;
+  padding: 26px 30px 6px 0;
+  box-sizing: border-box;
+  width: 690px;
+  float: right;
+  height: 120px;
+  color: $textColor1;
+  font-size: 16px;
+  line-height: 22px;
+  border-top-right-radius: 4px;
+}
+.moment-publisher-topic-area{
+  height: 34px;
+  line-height: 34px;
+  margin-bottom: 6px;
+  float: right;
+  width: 660px;
+  margin-right: 30px;
+  background-color: $textBgColor4;
+  color: $textColor3;
+  border-radius: 4px;
+  position: relative;
+}
+.blank.moment-publisher-topic-area{
+  background-color: white;
+}
+.mpta-topic{
+  width: 58px;
+  height: 24px;
+  border: 1px solid $textColor3;
+  color: $textColor3;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 12px;
+  border-radius: 12px;
+  line-height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.mpta-cancel{
+  right: 12px;
+  cursor: pointer;
+}
+.mpta-label{
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 560px;
+}
+
+ .moment-editor::placeholder{
+  color: $textColor3;
+}
+
+.moment-publisher-footer{
+  width: 100%;
+  float: left;
+  height: 88px;
+  border-top: 2px solid $borderColor2;
+  box-sizing: border-box;
+  padding-left: 26px;
+  position: relative;
+
+  .mpf-btn{
+    height: 88px;
+    line-height: 88px;
+    float: left;
+    background-color: white;
+    border: 0 none;
+    outline: 0 none;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0;
+    img,span{
+      vertical-align: middle;
+      display: inline-block;
+    }
+    img{
+
+    }
+    span{
+      color: $textColor1;
+      font-size: 12px;
+      margin-left: 12px;
+    }
+  }
+  .mp-btn-left{
+    float: left;
+    margin-left: 20px;
+  }
+  .mp-btn-left:hover span{
+    color: $textColor4;
+  }
+  .mp-btn-selected span{
+    color: $textColor4;
+  }
+  .mp-btn-right{
+    float: right;
+    margin-right: 30px;
+    span{
+      color: $textColor4;
+      margin-left: 8px;
+    }
+  }
+  .mp-btn-send{
+    margin-left: 50px;
+  }
+}
+
+.mp-avatar{
+  margin: 26px 30px 0;
+  float: left;
+  width: 50px;
+  height: 50px;
+}

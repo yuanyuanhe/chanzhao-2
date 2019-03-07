@@ -1,0 +1,57 @@
+@import "../../configs/config";
+.chat-cover{
+  //background: url(addHost( "web/assests/img/background-min.png" )) no-repeat center center;
+  //background-size: 100% 100%;
+  width: 100%;
+  min-width: 1240px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  //overflow-x: scroll;
+  //overflow-y: hidden;
+}
+.chat-cover.horizontal{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1240px!important;
+  min-height: 600px;
+}
+.chat-cover.vertical{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 1000px!important;
+  min-width: 1240px;
+}
+.chat-container{
+  width: 1100px;
+  height: 100%;
+  margin: auto;
+  //position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  float: left;
+}
+.tab-list-wrapper{
+  height: 958px;
+}
+.chat-container.small-screen{
+  height: 100%;
+  min-height: 600px;
+  .tab-list-wrapper{
+    height: 510px;
+  }
+}
+
+.chat-cover.split{
+  width: 100%;
+  .chat-container{
+    transform: translateX(70px);
+    clear: left;
+    position: absolute;
+    height: 1048px;
+  }
+}

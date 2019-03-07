@@ -1,0 +1,12 @@
+.session-main-chat-area{
+  width: 100%;
+  height: 632px;
+  box-sizing: border-box;
+  padding-top: 20px;
+}
+.small-screen .session-main-chat-area{
+  height: 360px;
+}
+.session-main-chat-area.hide{
+  display: none;
+}

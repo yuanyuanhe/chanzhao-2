@@ -1,0 +1,34 @@
+@import "../../../../configs/config";
+.home-anchor-container{
+  height: 100%;
+  position: relative;
+  width: 100px;
+  float: left;
+  cursor: pointer;
+  .home-anchor-img{
+    width: 22px;
+    height: 20px;
+    background: url(addHost("web/assets_v2/img/icon-nav_home_no.png")) no-repeat center center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+  }
+  .home-anchor-text{
+    color: #b7b7b7;
+    font-size: 18px;
+    line-height: 102px;
+    height: 100%;
+    margin-left: 32px;
+    display: block;
+  }
+
+}
+.home-anchor-container.cur{
+  .home-anchor-img{
+    background-image: url(addHost('web/assets_v2/img/icon-nav_home _yes.png'));
+  }
+  .home-anchor-text{
+    color: #b95af3;
+  }
+}

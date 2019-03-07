@@ -1,0 +1,37 @@
+@import "../../../../configs/icons";
+@import "../../../../configs/config";
+.member-list-container{
+  position: absolute;
+  width: 240px;
+  height: 380px;
+  left: 50%;
+  margin-left: -120px;
+  top: -400px;
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 4px;
+  .member-list-header{
+    height: 50px;
+    border-bottom: 1px solid #ddd;
+    line-height: 50px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 0 30px;
+  }
+
+  .member-list{
+    height: 300px;
+  }
+
+  .member-list-add-member{
+    background: url(addIconHost($ICON_TALK_GROUP_ADD)) no-repeat center center;
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-top: 15px;
+    cursor: pointer;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+  }
+}

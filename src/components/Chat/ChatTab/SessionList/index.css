@@ -1,0 +1,2 @@
+.start-chat-container{position:absolute;right:-560px;width:560px;background-color:white;animation:mydrop 0.5s;top:0}@keyframes mydrop{0%{top:-460px}100%{top:0}}
+/*# sourceMappingURL=index.css.map */

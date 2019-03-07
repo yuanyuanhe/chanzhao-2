@@ -1,0 +1,9 @@
+@import "../../../configs/config";
+.selector-line{
+  height: 32px;
+  line-height: 32px;
+  font-size: 12px;
+  padding-left: 36px;
+  border-bottom: 1px solid $borderColor1;
+  color: $textColor2;
+}

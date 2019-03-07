@@ -1,0 +1,38 @@
+@import "../../../../configs/config";
+.transport-controller-container{
+  width: 90px;
+  height: 48px;
+  border-radius: 4px;
+  position: absolute;
+  z-index: 2;
+  top: 105%;
+  left: 424px;
+  background-color: white;
+
+  .tcc-wrapper{
+    width: 24px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: $textBgColor4;
+    position: relative;
+    margin: 0 auto;
+
+    .tcc-item{
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      position: absolute;
+      top: -2px;
+      left: 0;
+      background-color: $textBgColor5;
+      cursor: pointer;
+    }
+  }
+  .tcc-wrapper.allow{
+    background-color: $textColor4;
+    .tcc-item{
+      left: 10px;
+      background-color: $btnColor1;
+    }
+  }
+}

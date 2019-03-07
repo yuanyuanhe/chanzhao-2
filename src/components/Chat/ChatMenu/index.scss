@@ -1,0 +1,20 @@
+.chat-menu{
+  height: 100%;
+  width: 140px;
+  background-color: #333;
+  //border-bottom-left-radius: 8px;
+  //border-top-left-radius: 8px;
+  float: left;
+  //position: fixed;
+  //left: 0;
+  //top: 0;
+}
+
+.center {
+  .chat-menu{
+    position: fixed;
+    left: 0;
+    top: 0;
+    clear: left;
+  }
+}

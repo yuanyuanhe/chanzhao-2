@@ -1,0 +1,8 @@
+@import "../../../../../configs/config";
+.setting-item{
+  margin: 10px auto;
+  cursor: pointer;
+}
+.setting-item:hover{
+  color: $textColor4;
+}

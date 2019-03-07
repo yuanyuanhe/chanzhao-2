@@ -1,0 +1,21 @@
+$maxHeight: 100px;
+.logo-container{
+  float: left;
+  height: $maxHeight;
+  width: 200px;
+  position: relative;
+}
+.logo-img{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.logo-text{
+  position: absolute;
+  left: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+

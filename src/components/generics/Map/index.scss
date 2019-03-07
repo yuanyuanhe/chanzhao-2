@@ -1,0 +1,20 @@
+.find-back-title{
+  height: 50px;
+  width: 100%;
+  line-height: 50px;
+  text-align: center;
+  color: #000000;
+  font-size: 16px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #DDDDDD;
+  position: relative;
+  z-index: 2;
+  background-color: white;
+  em{
+
+    font-style: normal;
+  }
+}
+.amap-logo,.amap-copyright{
+  display: none!important;
+}

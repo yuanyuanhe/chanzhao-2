@@ -1,0 +1,25 @@
+@import "../../../configs/config";
+.selector-avatar{
+  width: 32px;
+  height: 32px;
+  float: left;
+}
+.selector-item{
+  width: 100%;
+  height: 60px;
+  box-sizing: border-box;
+  padding: 14px 0 0 36px;
+  cursor: pointer;
+}
+.selector-item.cur{
+  background-color: $textBgColor2;
+}
+.selector-item-name{
+  margin-left: 14px;
+  display: inline-block;
+  height: 32px;
+  line-height: 32px;
+  width: 140px;
+  font-size: 12px;
+  color: $textColor1;
+}

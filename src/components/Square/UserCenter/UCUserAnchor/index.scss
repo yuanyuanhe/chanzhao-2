@@ -1,0 +1,29 @@
+@import "../../../../configs/config";
+.uc-user-anchor-container{
+  flex: 1;
+  padding-top: 17px;
+}
+.uc-user-anchor-container + .uc-user-anchor-container{
+  border-left: 1px solid $borderColor1;
+}
+
+.uuac-number{
+  font-size: 24px;
+  font-weight: 600;
+  color: $textColor1;
+  height: 24px;
+  line-height: 24px;
+  width: 100%;
+  text-align: center;
+}
+
+.uuac-text{
+  color: $textColor3;
+  font-size: 14px;
+  height: 14px;
+  line-height: 14px;
+  text-align: center;
+  width: 100%;
+  margin-top: 6px;
+}
+

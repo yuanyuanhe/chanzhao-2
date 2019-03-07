@@ -1,0 +1,16 @@
+@import "../../../../configs/config";
+.moment-item-icon{
+  float: left;
+  cursor: pointer;
+  min-width: 80px;
+  margin-right: 70px;
+  .mii-text, .mii-img{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .mii-text{
+    color: $textColor3;
+    font-size: 12px;
+    margin-left: 8px;
+  }
+}

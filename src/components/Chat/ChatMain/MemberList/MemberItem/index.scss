@@ -1,0 +1,22 @@
+$height: 32px;
+
+.memeber-item-container{
+  cursor: pointer;
+  height: $height;
+  padding: 10px 30px;
+  .member-avatar{
+    width: $height;
+    height: $height;
+    float: left;
+    margin-right: 16px;
+  }
+  .member-name{
+    float: left;
+    width: 130px;
+    height: $height;
+    line-height: $height;
+  }
+}
+.memeber-item-container:hover,.memeber-item-container.cur{
+  background-color: #dbdde1;
+}

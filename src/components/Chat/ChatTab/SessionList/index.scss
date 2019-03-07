@@ -1,0 +1,19 @@
+$width: 560px;
+.start-chat-container{
+  position: absolute;
+  //top: -460px;
+  right: -$width;
+  width: $width;
+  background-color: white;
+  animation: mydrop 0.5s;
+  top: 0;
+  //transition: top 0.5s;
+}
+@keyframes mydrop {
+  0% {
+    top: -460px
+  }
+  100% {
+    top: 0;
+  }
+}

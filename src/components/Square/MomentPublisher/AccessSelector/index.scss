@@ -1,0 +1,29 @@
+@import "../../../../configs/config";
+.access-selector-container{
+  background-color: white;
+  border-radius: 4px;
+  padding: 16px 10px;
+  position: absolute;
+  top: 105%;
+  left: 570px;
+  z-index: 2;
+
+  .asc-item{
+    margin-bottom: 10px;
+    line-height: 20px;
+    height: 20px;
+    font-size: 14px;
+    color: $textColor3;
+    cursor: pointer;
+  }
+  .asc-item:hover,.asc-item.cur{
+    color: $textColor4;
+  }
+  .asc-item:nth-last-child(1){
+    margin-bottom: 0;
+  }
+}
+
+.access-selector-container.hide{
+  display: none;
+}

@@ -1,0 +1,81 @@
+.msg-item-container{
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+  padding: 0 20px;
+}
+.time-tag{
+  max-width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #999;
+  font-size: 12px;
+  line-height: 18px;
+}
+.msg-item{
+  margin-bottom: 20px;
+  padding: 8px;
+  font-size: 15px;
+  line-height: 20px;
+  //max-width: 400px;
+  border-radius: 8px;
+  max-width: 600px;
+  word-break: break-all;
+}
+.msg-item-img{
+  max-width: 200px;
+  display: block;
+}
+.msg-video-gif,.diy-emoji-msg{
+  video, img{
+    max-width: 200px;
+    display: block;
+  }
+}
+.msg-user-avatar{
+  width: 42px;
+  height: 42px;
+}
+.msg-me {
+  .msg-user{
+    text-align: right;
+  }
+  .msg-user-avatar{
+    float: right;
+  }
+  .msg-item{
+    float: right;
+    background-color: #f5f5f5;
+    color: #333;
+    margin-right: 10px;
+  }
+}
+.msg-you {
+
+  .msg-user-avatar{
+    float: left;
+  }
+  .msg-item{
+    float: left;
+    background-color: #ff438e;
+    color: white;
+    margin-left: 10px;
+  }
+}
+.load-more{
+  color: #333;
+  font-size: 12px;
+  text-align: center;
+  margin: 20px 0;
+  cursor: pointer;
+}
+.msg-notification{
+  text-align: center;
+}
+.msg-tip{
+  text-align: center;
+}
+.msg-user-name{
+  font-size: 12px;
+  color: #999;
+}

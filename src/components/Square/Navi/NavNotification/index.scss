@@ -1,0 +1,61 @@
+@import "../../../../configs/config";
+@import "../../../../configs/icons";
+.nav-notification-container{
+  //position: relative;
+  width: 20px;
+  height: 20px;
+  right: 116px;
+
+}
+.nnc-icon{
+  cursor: pointer;
+  background: url(addIconHost($ICON_NAV_NOTICE_COMMON)) no-repeat center center;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  .nnc-icon-dot{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    margin-left: -3px;
+    background-color: $btnColor1;
+    display: none;
+  }
+}
+.nnc-icon:hover,.nnc-icon.active{
+  background-image: url(addIconHost($ICON_NAV_NOTICE_ACTIVE));
+}
+.nnc-icon.show-dot{
+  .nnc-icon-dot{
+    display: block;
+  }
+}
+
+.nnc-list{
+  position: absolute;
+  top: 60px;
+  right: -116px;
+  width: 584px;
+  box-sizing: border-box;
+  display: none;
+  background-color: white;
+  border-radius: 4px;
+  padding: 0 0 20px;
+  z-index: 9;
+}
+.nnc-list.show{
+  display: block;
+}
+.nav-scroll{
+  max-height: 700px;
+  width: 100%;
+}
+.nnc-empty-item{
+  height: 80px;
+  line-height: 100px;
+  padding-left: 30px;
+  font-size: 16px;
+}

@@ -1,0 +1,44 @@
+@import "../../../../../../configs/config";
+.comment-response-wrapper{
+  background-color: $textBgColor4;
+  padding: 0 14px;
+  width: 676px;
+  float: right;
+  box-sizing: border-box;
+
+  .comment-tip{
+    width: 100%;
+    border-top: 1px solid $borderColor2;
+    div{
+      cursor: pointer;
+      color: $textColor4;
+      font-size: 14px;
+      height: 28px;
+      line-height: 28px;
+    }
+    .comment-tip-text{
+      cursor: pointer;
+      float: left;
+    }
+    .comment-tip-hide{
+      float: right;
+    }
+  }
+}
+.cia-wrapper{
+  width: 676px;
+  float: right;
+}
+.comment-response-item{
+  min-height: 90px;
+  box-sizing: border-box;
+  padding-top: 26px;
+  border-bottom: 2px solid $borderColor4;
+  .comment-main{
+    width: 592px;
+    min-height: 60px;
+  }
+  .comment-time{
+    margin-bottom: 0;
+  }
+}

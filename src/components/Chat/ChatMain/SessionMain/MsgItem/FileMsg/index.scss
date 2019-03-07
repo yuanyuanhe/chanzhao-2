@@ -1,0 +1,34 @@
+@import "../../../../../../configs/config";
+@import "../../../../../../configs/icons";
+
+.file-msg{
+  background: url(addIconHost($FILE)) no-repeat;
+  width: 252px;
+  height: 70px;
+  box-sizing: border-box;
+  background-position: 12px center;
+  padding-left: 54px;
+  cursor: pointer;
+
+  .file-msg-name{
+    max-width: 180px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 15px;
+    margin-bottom: 14px;
+    //color: $textColor2;
+  }
+  .file-msg-size{
+    color: $textColor3;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+  }
+}
+.msg-you .file-msg{
+  background-color: $textBgColor4!important;
+  color: $textColor1;
+}
+.msg-me .file-msg{
+
+}

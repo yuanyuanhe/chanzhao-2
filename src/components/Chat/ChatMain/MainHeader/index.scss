@@ -1,0 +1,23 @@
+.chat-main-header{
+  height: 50px;
+  line-height: 50px;
+  font-size: 22px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  border-bottom: 2px solid #f5f5f5;
+}
+.chat-main-header-delete{
+  position: absolute;
+  cursor: pointer;
+  display: block;
+  right: 10px;
+  height: 22px;
+  width: 20px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}

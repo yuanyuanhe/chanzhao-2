@@ -1,0 +1,10 @@
+@import "../../../configs/config";
+@import "../../../configs/icons";
+.jump-arrow{
+  float: right;
+  background: url(addIconHost($ICON_ARROW)) no-repeat center center;
+  height: 20px;
+  width: 20px;
+  margin-top: 22px;
+  cursor: pointer;
+}

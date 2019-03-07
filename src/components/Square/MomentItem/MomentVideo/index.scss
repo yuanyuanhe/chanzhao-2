@@ -1,0 +1,48 @@
+.moment-item-video{
+  height: 468px;
+  width: 100%;
+  position: relative;
+  .miv-thumbnail-container{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    background-color: inherit;
+    overflow: hidden;
+    .miv-thumbnail{
+      width: 100%;
+      height: 100%;
+    }
+    .thumbnail-vertical-middle{
+      width: 100%!important;
+      height: auto!important;
+      display: block;
+    }
+    .thumbnail-horizontal-middle{
+      height: 100%!important;
+      width: auto!important;
+      display: block;
+    }
+    .miv-play{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin: -45px 0 0 -45px;
+      cursor: pointer;
+    }
+  }
+
+  .miv-video-container{
+    width: 100%;
+    height: 100%;
+    video{
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

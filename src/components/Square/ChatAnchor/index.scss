@@ -1,0 +1,14 @@
+@import "../../../configs/config";
+@import "../../../configs/icons";
+.chat-anchor{
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  right: 0;
+  top: 33.33%;
+  margin-top: -30px;
+  //background-color: pink;
+  cursor: pointer;
+  background: url(addIconHost($ENTRANCE_CHAT)) no-repeat center center;
+  z-index: 9;
+}

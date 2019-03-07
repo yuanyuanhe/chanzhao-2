@@ -1,0 +1,26 @@
+.navi-container{
+  height: 100px;
+  position: relative;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 9;
+}
+.navi-wrapper{
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  height: 100%;
+}
+.nav-avatar{
+  float: right;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+}
+
+.navi-line{
+  width: 100%;
+  height: 130px;
+}

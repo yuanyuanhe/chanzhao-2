@@ -1,0 +1,13 @@
+@charset "UTF-8";
+// 测试数据
+$ICON_NAME: "SAMPLE_ICON_NAME";
+$REDUNDANT: "REDUNDANT_VALUE";
+$mainColor: #b95af3;
+$test: test;
+
+:export {
+  //ICON_NAME: $ICON_NAME;
+  iconName: $ICON_NAME;
+  redundantKey: $REDUNDANT;
+  test: $test;
+}

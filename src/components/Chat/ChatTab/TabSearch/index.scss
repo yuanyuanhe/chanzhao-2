@@ -1,0 +1,23 @@
+@import "../../../../configs/icons";
+@import "../../../../configs/config";
+.tab-search-container{
+  background: url(addIconHost($ICON_NAV_SEARCH)) no-repeat 20px center;
+  position: relative;
+  border-bottom: 2px solid $borderColor2;
+  input{
+    padding: 0;
+    border: 0 none;
+    outline: 0 none;
+    font-size: 14px;
+    margin: 18px 0 0 24px;
+    height: 18px;
+    line-height: 18px;
+  }
+  img{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+}

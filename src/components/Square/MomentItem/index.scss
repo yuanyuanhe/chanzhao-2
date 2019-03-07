@@ -1,0 +1,72 @@
+@import "../../../configs/config";
+@import "../../../configs/icons";
+.moment-item-container{
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+.moment-item{
+
+  .moment-item-header{
+    height: 126px;
+    box-sizing: border-box;
+    border-bottom: 2px solid $borderColor2;
+    padding: 36px $mHoriPadding 0;
+    .moment-avatar{
+      float: left;
+      width: 70px;
+      height: 70px;
+      margin-right: 20px;
+    }
+
+    .moment-item-alias{
+      color: $textColor1;
+      font-size: 18px;
+      display: inline-block;
+      width: 450px;
+      font-style: normal;
+      font-weight: bold;
+    }
+
+    .moment-item-release-time{
+      display: inline-block;
+      width: 450px;
+      font-style: normal;
+      color: $textColor3;
+      font-size: 12px;
+    }
+  }
+}
+
+.moment-item-main-layout{
+  padding: 20px $mHoriPadding;
+}
+.topic-line{
+  border-bottom: 2px solid $borderColor2;
+  padding: 0 20px 20px;
+}
+.moment-label-list{
+  line-height: 26px;
+}
+
+.moment-icon-container{
+  width: 100%;
+  height: 76px;
+  line-height: 76px;
+  float: left;
+  box-sizing: border-box;
+  padding: 0 $mHoriPadding;
+  border-bottom: 2px solid #f5f5f5;
+  //margin-bottom: 16px;
+}
+.moment-item-image-wrapper-multi,.moment-item-image-wrapper{
+  img{
+    background-image: url(addIconHost($IMG_LOADING));
+    background-size: contain;
+    background-repeat: no-repeat;
+    //min-height: 100px;
+    background-position: center;
+  }
+}

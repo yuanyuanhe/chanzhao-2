@@ -1,0 +1,67 @@
+@import "../../../configs/config";
+.menu-header{
+  position: relative;
+  height: 64px;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 30px;
+  padding-right: 40px;
+  line-height: 64px;
+  font-size: 18px;
+  color: $textColor1;
+  font-weight: 600;
+  text-align: left;
+  border-bottom: 2px solid $borderColor2;
+  .menu-close{
+    cursor: pointer;
+    right: 30px;
+  }
+}
+
+.report-content{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px 30px;
+  font-size: 14px;
+  color: $textColor3;
+  line-height: 20px;
+}
+
+.report-type-item{
+  width: 320px;
+  margin: 0 auto;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: $textColor1;
+  border-bottom: 2px solid $borderColor2;
+  position: relative;
+}
+
+.report-input-wrapper{
+  width: 320px;
+  height: 100px;
+  margin: 10px auto 20px;
+  .report-input{
+    border: 0 none;
+    outline: 0 none;
+    padding: 10px;
+    box-sizing: border-box;
+    line-height: 20px;
+    font-size: 14px;
+    color: $textColor3;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color: $textBgColor4;
+    border-radius: 4px;
+  }
+}
+.report-btn-wrapper{
+  margin-bottom: 20px;
+  .report-btn{
+    width: 320px;
+    height: 40px;
+    line-height: 40px;
+  }
+}

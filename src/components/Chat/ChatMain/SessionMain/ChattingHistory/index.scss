@@ -1,0 +1,26 @@
+@import "../../../../../configs/config";
+@import "../../../../../configs/icons";
+.chatting-history-container{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-color: white;
+  display: none;
+  top: 0;
+}
+.chatting-history-container.show{
+  display: block;
+}
+
+.history-session-menu-container{
+  width: 20px;
+  height: 18px;
+  background: url(addIconHost($BACK_DEFAULT)) no-repeat center center;
+  background-size: 100% 100%;
+  right: 20px;
+  cursor: pointer;
+}
+.history-session-menu-container:hover{
+  background: url(addIconHost($BACK_HOVER));
+}

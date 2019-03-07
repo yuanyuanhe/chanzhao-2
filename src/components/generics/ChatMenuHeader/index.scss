@@ -1,0 +1,14 @@
+@import "../../../configs/config";
+@import "../../../configs/icons";
+.chat-menu-header{
+  //width: 100%;
+  display: block;
+  height: 28px;
+  background: url(addIconHost($TANCHUANG)) no-repeat left top;
+  //background: url('./tanchuang.png') no-repeat left top;
+  position: absolute;
+  z-index: 2;
+  background-size: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}

@@ -1,0 +1,73 @@
+@import "../../../configs/config";
+@import "../../../configs/icons";
+.friend-selector-container{
+  z-index: 9;
+}
+.friend-selector-select-area{
+  height: 450px;
+  width: 240px;
+  background-color: $textBgColor3;
+  float: left;
+}
+.friend-selector-scroll-area{
+  height: 400px;
+}
+
+.selected-area{
+  width: 320px;
+  float: left;
+  height: 450px;
+  box-sizing: border-box;
+  padding: 0 12px;
+  line-height: 56px;
+}
+.selected-area-title{
+  font-size: 14px;
+  color: $textColor2;
+  height: 38px;
+  line-height: 38px;
+  position: relative;
+}
+.selected-item-container{
+  height: 340px;
+}
+.selector-btn {
+  margin: 20px 20px 0 0;
+  float: right;
+  width: 128px;
+  height: 32px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 32px;
+  cursor: pointer;
+  box-sizing: border-box;
+  border: 0 none;
+  outline: 0 none;
+}
+.selector-cancel{
+  background-color: white;
+  color: $textColor3;
+  border: 1px solid $borderColor1;
+}
+.selector-submit{
+  background-color: $btnColor2;
+  color: white;
+}
+.selected-area-icon-delete{
+  background: url(addIconHost($ICON_LABEL_DELETE)) no-repeat center center;
+  float: right;
+  width: 12px;
+  height: 14px;
+  margin-top: 12px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.fsne-text,.edit-icon{
+  vertical-align: middle;
+}
+.friend-selector-name-editer{
+  
+}

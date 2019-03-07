@@ -1,0 +1,95 @@
+$width: 180px;
+$heigth: 310px;
+$lowHeight: 260px;
+@import "../../../../../configs/icons";
+@import "../../../../../configs/config";
+.member-profile-container{
+  position: absolute;
+  right: -$width;
+  width: $width;
+  height: $heigth;
+  top: 0;
+  background-color: white;
+  border-radius: 4px;
+}
+.isFriend{
+  height: $lowHeight;
+}
+
+.member-profile-avatar{
+  margin: 30px auto 16px;
+  width: 80px;
+  height: 80px;
+}
+
+.member-profile-alias{
+  text-align: center;
+  color: #333;
+  font-size: 18px;
+  height: 20px;
+  line-height: 20px;
+  margin-bottom: 5px;
+  max-width: 160px;
+  margin: 0 auto;
+}
+
+.member-profile-mt-number{
+  text-align: center;
+  color: #999;
+  font-size: 14px;
+  line-height: 18px;
+  height: 18px;
+  margin-bottom: 12px;
+}
+
+.member-profile-sex{
+  display: inline-block;
+  margin-left: 6px;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+.male{
+  background-image: url(addIconHost($ICON_SQUARE_SEX_MAN));
+}
+
+.female{
+  background-image: url(addIconHost($ICON_SQUARE_SEX_WOMAN));
+}
+
+.member-profile-datas{
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 36px;
+  .member-profile-item{
+    width: 100%;
+    text-align: left;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    .member-profile-key{
+      color: #666;
+      float: left;
+      margin-right: 12px;
+    }
+    .member-profile-value{
+      color: #333;
+      float: left;
+      max-width: 84px;
+    }
+  }
+}
+
+.member-profile-add-friend{
+  width: 132px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 4px;
+  margin: 24px auto 30px;
+  background-color: $bgColor;
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.moment-item-image{
+  max-width: 320px;
+  .moment-item-image-wrapper{
+    width: 100%;
+    max-height: 800px;
+    overflow: hidden;
+    img{
+      display: block;
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.avatar-container{
+  display: flex!important;
+  justify-content: center!important;
+  align-items: center!important;
+  background-color: white;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+.avatar-vertical-middle{
+    width: 100%!important;
+    height: auto!important;
+    display: block;
+}
+.avatar-horizontal-middle{
+  height: 100%!important;
+  width: auto!important;
+  display: block;
+}

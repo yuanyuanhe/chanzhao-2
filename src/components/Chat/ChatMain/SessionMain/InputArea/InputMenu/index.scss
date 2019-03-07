@@ -1,0 +1,15 @@
+.session-input-menu{
+  height: 50px;
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 20px;
+}
+.session-input-menu-item{
+  float: left;
+  margin-right: 20px;
+  cursor: pointer;
+  img{
+    display: block;
+    height: 22px;
+  }
+}

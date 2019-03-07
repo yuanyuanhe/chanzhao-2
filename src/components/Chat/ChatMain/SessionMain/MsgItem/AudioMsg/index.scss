@@ -1,0 +1,40 @@
+@import "../../../../../../configs/config";
+@import "../../../../../../configs/icons";
+.msg-me{
+
+  .audio-msg{
+    background-position: 140px center;
+    background-image: url(addIconHost($BLACK03));
+    text-align: left;
+  }
+
+  .play-0{
+    background-image: url(addIconHost($BLACK01));
+  }
+  .play-1{
+    background-image: url(addIconHost($BLACK02));
+  }
+  .play-2{
+    background-image: url(addIconHost($BLACK03));
+  }
+}
+.msg-you{
+  .audio-msg{
+    text-align: right;
+  }
+  .play-0{
+    background-image: url(addIconHost($WHITE01));
+  }
+  .play-1{
+    background-image: url(addIconHost($WHITE02));
+  }
+  .play-2{
+    background-image: url(addIconHost($WHITE03));
+  }
+}
+.audio-msg{
+  width: 150px;
+  padding-left: 10px;
+  cursor: pointer;
+  background: url(addIconHost($WHITE03)) no-repeat 10px center;
+}

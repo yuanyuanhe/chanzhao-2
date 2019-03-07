@@ -1,0 +1,25 @@
+@import "../../../configs/config";
+.selector-selected-item{
+  background-color: $textBgColor3;
+  padding: 8px;
+  margin-right: 12px;
+  display: inline-block;
+  border-radius: 4px;
+  height: 12px;
+  line-height: 12px;
+
+  img{
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 12px;
+    cursor: pointer;
+  }
+}
+.selector-selected-name{
+  display: inline-block;
+  vertical-align: middle;
+  color: $textColor1;
+  font-size: 12px;
+  line-height: 14px;
+  height: 14px;
+}
